@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+}
+
+.wrapper{
+    width: 1349px;
+    min-height: 600px;
+    background: no-repeat url('https://boykot.kg/assets/back42.jpg'); 
+    background-color: gray;
+    background-size: 100%;
+}
+
+.container{
+    margin: 20px 50px;
+}
+
+/* header */
+
+.header{
+    margin: 0 auto;
+    position: relative;
+    padding: 60px 50px;
+}
+
+.header button{
+    background-color: #5e4c34;
+    padding: 8px;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+
+.header-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-box input{
+    background-color: #5e4c34;
+    border: 2px solid #FFF;
+    width: 480px;
+    height: 45px;
+    padding: 10px;
+}
+
+.header-box input::placeholder{
+    color: #FFF;
+    font-size: 18px;
+}
+
+.header-box span{
+    font-size: 23px;
+    text-align: center;
+}
+
+/* menu */
+
+.content-nav{
+    width: 92%;
+    padding: 2% 4%;
+    margin: 10px auto;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.content-nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+/* product */
+
+.products{
+    width: 94%;
+    height: 400px;
+    overflow-x: scroll;
+    margin: 0 auto;
+}
+
+.product{
+    width: 100%;
+    padding: 2% 4%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    border: none;
+    border-radius: 10px;
+}
+
+.product span {
+    color: black;
+}
+
+.product img{
+    width: 200px;
+    height: 100px;
+}
+
+.product-button{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.green{
+    background-color: red;
+}
+
+.red{
+    background-color: green;
+}
